@@ -24,3 +24,23 @@
     }
 }
 
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(90deg, #003fa2, #010101);
+}
+.box-2:hover {
+    animation-name: five;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes five {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg)
+    }
+}
