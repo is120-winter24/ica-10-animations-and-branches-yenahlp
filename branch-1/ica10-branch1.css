@@ -1,6 +1,17 @@
 /* yen */
 /* TEAMMATE ONE EDITS THESE STYLES FOR YOUR TASKS */
 
+.logo {
+    margin-top: 10px;
+    width: 50px;
+    transition: scale 2s, transform 2s;
+}
+
+.logo:hover {
+    width: 70px;
+    transform: scale(1.4) rotate(10deg);
+}
+
 .box-1 {
     position: relative;
     animation-name: spin;
